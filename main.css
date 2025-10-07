@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(246, 165, 111);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#label {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#nome {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #c25c00;
+    border-radius: 8px;
+    outline: none;
+}
+
+#botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    background-color: #c25c00; /* Laranja escuro */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e27000; /* Laranja um pouco mais claro ao passar o mouse */
+    transform: scale(1.05);
+}
